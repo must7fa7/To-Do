@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 26, 26);
+}
+
+.contenar {
+    width: 600px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color:  rgb(49, 236, 24);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 50%;
+}
+
+button {
+    background-color: #061df0;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+h2{
+    color: rgb(194, 177, 177);
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.407);
+}
+li:hover{
+    background-color: #ffffffb5;
+}
+
+li span {
+    margin-right: 10px;
+    width: 200px;
+    text-align: start;
+}
+
+li button {
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #cc0000;
+}
+
+li :nth-child(4) {
+    background-color: #150df0
+}
+
+li :nth-child(4):hover {
+    background-color: #0d08a1
+}
+
+
+
+
+
+
+
+body {
+   /* background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');*/
+    background-size: cover;
+    -webkit-animation: slidein 100s;
+    animation: slidein 100s;
+
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes slidein {
+    from {
+        background-position: top;
+        background-size: 3000px;
+    }
+
+    to {
+        background-position: -100px 0px;
+        background-size: 2750px;
+    }
+}
+
+@keyframes slidein {
+    from {
+        background-position: top;
+        background-size: 3000px;
+    }
+
+    to {
+        background-position: -100px 0px;
+        background-size: 2750px;
+    }
+
+}
+
+
+
+.center {
+    display: flex;
+
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* background: rgba(75, 75, 250, 0.145); */
+    border-radius: 3px;
+}
